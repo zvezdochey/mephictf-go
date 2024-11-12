@@ -36,4 +36,4 @@
 
 ## Contribution
 
-Feel free to open PRs to this repository if you find any mistakes or inaccuracies
+Feel free to open PRs to this repository if you find any mistakes or inaccuracies. If you wish to discuss them beforehand, open an issue.
