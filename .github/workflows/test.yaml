@@ -9,6 +9,7 @@ env:
 
 jobs:
   detect-modules:
+    if: ${{ github.repository != 'LeKSuS-04/mephictf-go' }}
     runs-on: ubuntu-latest
     outputs:
       modules: ${{ steps.set-modules.outputs.modules }}
