@@ -23,17 +23,17 @@ func Mult(a, b int) int {
 
 // Divides a by b.
 //
-// Returns `ErrDivByZero` if b is zero.
+// Returns ErrDivByZero if b is zero.
 func Div(a, b int) (int, error) {
 	return 0, errors.New("not implemented")
 }
 
-// Returns first `count` primes.
+// Returns first count primes.
 func Primes(count int) []int {
 	return nil
 }
 
-// Returns prime factors of `n` in ascending order.
+// Returns prime factors of n in ascending order.
 func Factorize(n int) []int {
 	return nil
 }
