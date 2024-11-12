@@ -19,7 +19,7 @@
 ### Pulling new tasks
 
 1. Make sure that all of your changes are commited.
-2. Run `git pull upstream` to pull new tasks.
+2. Run `git pull upstream master` to pull new tasks.
 3. Although unlikely, you might stumble into merge conflicts. [Here's how to resolve them](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line).
 
 ## Code snippets and examples from lectures
