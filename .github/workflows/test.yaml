@@ -9,7 +9,6 @@ env:
 
 jobs:
   detect-modules:
-    if: ${{ github.repository != 'LeKSuS-04/mephictf-go' }}
     runs-on: ubuntu-latest
     outputs:
       modules: ${{ steps.set-modules.outputs.modules }}
@@ -45,6 +44,7 @@ jobs:
           args: --timeout=30m
 
   test:
+    if: ${{ github.repository != 'LeKSuS-04/mephictf-go' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
