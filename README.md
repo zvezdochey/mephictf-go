@@ -26,7 +26,7 @@
 
 1. [1-basic](./examples/1-basic/)
 
-## Chapters
+## Tasks
 
 1. Basics of the language
    - [helloworld](/helloworld/helloworld.go)
