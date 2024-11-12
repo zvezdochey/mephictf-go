@@ -33,3 +33,7 @@
    - [quickmafs](/quickmafs/quickmafs.go)
    - [lrucache](/lrucache/lrucache.go)
    - [packagemanager](/packagemanager/packagemanager.go)
+
+## Contribution
+
+Feel free to open PRs to this repository if you find any mistakes or inaccuracies
